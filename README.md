@@ -1,6 +1,8 @@
 # practice-creating-arrays-1-Jessica---K-
-let groceryList = ["chocolate", "ice cream", "cookies", "pizza", "tequila"];
-console.log(groceryList);
+let groceryItems = ["Chocolate", "Pizza", "Ice Cream", "Fruit", "Vegetables"];
+let prices = [5.99, 8.49, 4.29];
+console.log("groceryItems:", groceryItems);
+console.log("prices:", prices);
 
-let prices = [22.88, 54.23, 12.89];
-console.log(prices);
+console.log("Individual Grocery Items:", groceryItems[0], groceryItems[3], groceryItems[4]);
+console.log("Selected Prices:", prices[0], prices[2]);
